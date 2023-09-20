@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Roboto:wght@300&display=swap');
 
-*{
+* {
   margin: 0;
-  padding: 0;  
+  padding: 0;
   font-family: 'Roboto', sans-serif;
 }
 
-.faqhead{
+.faqhead {
   font-size: 3rem;
 }
 
-.faqcontainer{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
-    gap: 50px;
-    background-color:rgb(166, 223, 228)
+.faqcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  gap: 50px;
+  background-color: rgb(166, 223, 228)
 }
 
 
 
 .firstcontainer,
 .secondcontainer,
-.thirdcontainer{
+.thirdcontainer {
   max-width: 600px;
   width: 80%;
   height: 70px;
@@ -38,7 +38,7 @@
 
 .firstbox,
 .secondbox,
-.thirdbox{
+.thirdbox {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,10 +49,11 @@
 
 .firstdescription,
 .seconddescription,
-.thirddescription{
-  transition : all 0.5s;
+.thirddescription {
+  transition: all 0.5s;
   padding-bottom: 5px;
 }
 
-
-
+.open {
+  height: auto !important;
+}
